@@ -8,4 +8,5 @@ def line(katz_deli)
    end
    puts "The line is currently:" + new_line.join
 end
+end
 
