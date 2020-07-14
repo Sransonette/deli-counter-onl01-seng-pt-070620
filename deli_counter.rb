@@ -4,9 +4,9 @@ def line(katz_deli)
     else
       new_line = "The line is currently:"
       katz_deli.each_with_index do |name, number|
-      new_line << "#{name + 1} and #{number}" 
+      new_line << "#{number + 1}. #{name}" 
    end
-   puts new_line.join
+   puts new_line
 end
 end
 
